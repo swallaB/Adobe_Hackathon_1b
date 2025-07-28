@@ -3,7 +3,6 @@ from transformers import pipeline
 # Load summarization model
 summarizer = pipeline("summarization", model="sshleifer/distilbart-cnn-12-6")
 
-
 def summarize_top_chunks(chunks, max_length=20, min_length=10):
     summaries = []
     for idx, chunk in enumerate(chunks):
