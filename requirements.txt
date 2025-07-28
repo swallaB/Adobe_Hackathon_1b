@@ -1,0 +1,9 @@
+langchain
+sentence-transformers
+transformers
+torch
+faiss-cpu
+chromadb
+python-dotenv
+PyMuPDF
+tqdm
